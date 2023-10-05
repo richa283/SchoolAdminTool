@@ -72,7 +72,7 @@
 </head>
 
 <body>
-<jsp:include page="verMenu.jsp"></jsp:include>
+<jsp:include page="../../verMenu.jsp"></jsp:include>
     <div class="mainhead">
         <div class="row">
             <div class="col-sm-7 l-head">

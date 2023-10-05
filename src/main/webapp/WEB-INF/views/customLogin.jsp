@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<jsp:include page="verMenu.jsp"></jsp:include>
+<jsp:include page="../../verMenu.jsp"></jsp:include>
 <!-- <center> -->
 	<j:if test="${param.error!=null }">
 		<i> Invalid ID or Password</i>

@@ -54,7 +54,7 @@
 </head>
 
 <body>
-<jsp:include page="verMenu.jsp"></jsp:include>
+<jsp:include page="../../verMenu.jsp"></jsp:include>
 <!-- <center> -->
 <br> 
 <font color="green"> <h2> ${msg }</h2></font>

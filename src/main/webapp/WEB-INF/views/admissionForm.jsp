@@ -458,7 +458,7 @@
     <title>Registration Form</title>
 </head>
 <body>
-<jsp:include page="verMenu.jsp"></jsp:include>
+<jsp:include page="../../verMenu.jsp"></jsp:include>
 <form:form action="saveAdmissison" modelAttribute="admissionDto" method="post" enctype="multipart/form-data" onsubmit="return validateform()">
     
 			<form:input type="hidden" path="id" />

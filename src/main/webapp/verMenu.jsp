@@ -66,8 +66,7 @@
                   <li><a class="dropdown-item" href="adLogin">Admin Login Page</a></li>
                 </ul>
               </li>
-              
-              
+  
             </ul>
             
           </div>

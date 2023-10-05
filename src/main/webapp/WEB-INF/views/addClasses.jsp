@@ -51,7 +51,7 @@ function validateform()
 </script>
 </head>
 <body>
-<jsp:include page="verMenu.jsp"></jsp:include>
+<jsp:include page="../../verMenu.jsp"></jsp:include>
 <center> 
 <h2> Add Classes here</h2>
  
