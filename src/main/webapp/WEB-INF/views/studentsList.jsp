@@ -27,7 +27,7 @@
 			var searchByName = document.getElementById("searchByName");
 			var searchByScholarNumber = document.getElementById("searchByScholarNumber");
 			
-			searchByName.style.display = searchMode.value = "name" ? "block" : "none";
+			searchByName.style.display = searchMode.value == "name" ? "block" : "none";
 			searchByScholarNumber.style.display = searchMode.value == "scholarNumber" ? "block" : "none";
 			
 		}
@@ -35,7 +35,7 @@
 		function validateForm(){
 			isValid = true;
 			return isValid;
-		}
+		};
 		
 	</script>
 </head>
