@@ -85,11 +85,7 @@ public class StudentController {
 		return "admissionForm";
 	}
 	
-	
-	
-	
-	
-	
+
 	
 	@RequestMapping(value ="/stusignup", method = RequestMethod.GET)
 	public String stuSignup() {
@@ -293,10 +289,7 @@ List<String> scholarList = 	studentsDao.getListOfScholarNumbers();
 	}
 	
 	
-	
 
-	
-	
 	
 	
 	@RequestMapping("/searchByRollNo")
